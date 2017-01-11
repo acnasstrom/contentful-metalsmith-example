@@ -12,7 +12,7 @@
     "serve": "live-server ./build",
     "start": "node build.js",
     "lint": "standard \"helpers/**/*.js\" \"build.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"TODO: Write some tests! Carry on.\" && exit 0",
     "watch": "gazer --pattern '{src,layouts,helpers,partials}/**/*' node build.js"
   },
   "license": "MIT",

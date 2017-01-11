@@ -4,4 +4,9 @@ dependencies:
 compile:
   post:
     - node build.js
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: thoughts-stage
 

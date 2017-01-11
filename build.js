@@ -26,8 +26,8 @@ Metalsmith(__dirname)
   .source('src')
   .destination('build')
   .use(contentful({
-    space_id: 'w7sdyslol3fu',
-    access_token: 'baa905fc9cbfab17b1bc0b556a7e17a3e783a2068c9fd6ccf74ba09331357182',
+    space_id: 'mp8ui9vnmqbf',
+    access_token: 'c002ee6e3a11b7f04997efd8df172d33cc75c207598703633bcb10680dbb3221',
     common: {
       featured_author: {
         limit: 1,

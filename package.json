@@ -11,7 +11,7 @@
     "dev": "run-p watch serve",
     "serve": "live-server ./build",
     "build": "node build.js",
-    "start": "http-server -p 80 ./build",
+    "start": "http-server ./build",
     "lint": "standard \"helpers/**/*.js\" \"build.js\"",
     "test": "echo \"TODO: Write some tests! Carry on.\" && exit 0",
     "watch": "gazer --pattern '{src,layouts,helpers,partials}/**/*' node build.js"

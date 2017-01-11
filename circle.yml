@@ -1,3 +1,6 @@
+general:
+  artifacts:
+    - "build/"
 dependencies:
   pre:
     - gem install bundler

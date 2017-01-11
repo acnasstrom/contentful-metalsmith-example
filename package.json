@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "run-p watch serve",
     "serve": "live-server ./build",
-    "start": "node build.js",
+    "build": "node build.js",
+    "start": "http-server -p 80 ./build",
     "lint": "standard \"helpers/**/*.js\" \"build.js\"",
     "test": "echo \"TODO: Write some tests! Carry on.\" && exit 0",
     "watch": "gazer --pattern '{src,layouts,helpers,partials}/**/*' node build.js"
@@ -22,6 +23,7 @@
     "gazer": "^0.0.3",
     "glob": "^7.0.6",
     "handlebars": "^4.0.0",
+    "http-server": "^0.9.0",
     "metalsmith": "^2.1.0",
     "metalsmith-assets": "^0.1.0",
     "metalsmith-clean": "^0.0.0",
